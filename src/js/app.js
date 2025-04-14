@@ -26,7 +26,7 @@ export default class App {
 
       this.chat = new Chat(nickname, this.ws);
     } else {
-      this.registerForm.showError('Пользователь с таким именем уже существуетю. Выберете другое имя.');
+      this.registerForm.showError('Пользователь с таким именем уже существует. Пожалуйста, выберите другое имя.');
     }
   }
 }
